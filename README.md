@@ -1,37 +1,37 @@
-# Alarme Pythonico
+# Pythonic Alarm
 
-Este é um simples aplicativo de alarme desenvolvido em Python usando a biblioteca `tkinter` para a interface gráfica e a função `datetime` para controlar a hora de disparo do alarme. O programa permite ao usuário definir uma hora, minuto e segundo para que um som de alarme seja reproduzido quando o horário selecionado for atingido.
+This is a simple alarm application developed in Python using the Tkinter library for the graphical interface and the `datetime` function to control the alarm trigger time. The program allows the user to set an hour, minute, and second so that an alarm sound is played when the selected time is reached.
 
-## Funcionalidades
+## Features
 
-- Definir o horário do alarme (hora, minuto, segundo).
-- Disparar o alarme tocando um arquivo de áudio (`Alarm.wav`) quando o horário definido for alcançado.
-- Interface gráfica simples utilizando `tkinter`.
+- Set the alarm time (hour, minute, second).  
+- Trigger the alarm by playing an audio file (`Alarm.wav`) when the set time is reached.  
+- Simple graphical interface using Tkinter.  
 
-## Como funciona
+## How It Works
 
-1. O usuário define o horário desejado para o alarme através de três menus suspensos (hora, minuto e segundo).
-2. Após pressionar o botão "Definir", o programa entra em um loop infinito verificando o horário atual.
-3. Quando o horário atual do sistema corresponde ao horário definido, o alarme é disparado, tocando o arquivo `Alarm.wav`.
-4. O programa usa `sleep` para aguardar um segundo entre as verificações de horário.
+1. The user sets the desired alarm time through three dropdown menus (hour, minute, and second).  
+2. After pressing the "Set" button, the program enters an infinite loop checking the current time.  
+3. When the system time matches the set alarm time, the alarm is triggered, playing the `Alarm.wav` file.  
+4. The program uses `sleep` to wait one second between time checks.  
 
-## Como usar
+## How to Use
 
-1. Clone ou baixe este código.
-2. Salve um arquivo de áudio `Alarm.wav` na mesma pasta do script ou altere o caminho do arquivo no código.
-3. Execute o script. A janela será aberta permitindo que você defina o horário para o alarme.
-4. Defina a hora, minuto e segundo desejados e pressione o botão "Definir".
-5. O alarme será disparado quando o horário configurado for atingido.
+1. Clone or download this code.  
+2. Save an audio file named `Alarm.wav` in the same folder as the script or change the file path in the code.  
+3. Run the script. A window will open, allowing you to set the alarm time.  
+4. Set the desired hour, minute, and second, then press the "Set" button.  
+5. The alarm will trigger when the configured time is reached.  
 
-## Requisitos
+## Requirements
 
-- Python 3.x
-- Biblioteca `tkinter` (geralmente já instalada com o Python).
-- Um arquivo de áudio `Alarm.wav` para o alarme.
+- Python 3.x  
+- `tkinter` library (usually pre-installed with Python).  
+- An audio file (`Alarm.wav`) for the alarm sound.  
 
-## Como executar
+## How to Run
 
-Para executar o programa, basta rodar o seguinte comando no terminal ou prompt de comando:
+To run the program, execute the following command in the terminal or command prompt:
 
-```bash
-python nome_do_arquivo.py
+```sh
+python filename.py
